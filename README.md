@@ -1,0 +1,1 @@
+This repository demonstrates a common data race error in Rust when working with vectors in a multithreaded context. The `bug.rs` file shows the problematic code that leads to undefined behavior because of data races. The `bugSolution.rs` file illustrates how to fix this issue using appropriate synchronization techniques such as mutexes or channels.
